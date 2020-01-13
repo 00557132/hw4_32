@@ -13,6 +13,15 @@
 		5513E51D23CCE2040040F724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5513E51C23CCE2040040F724 /* Assets.xcassets */; };
 		5513E52023CCE2040040F724 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5513E51F23CCE2040040F724 /* Preview Assets.xcassets */; };
 		5513E52323CCE2040040F724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513E52123CCE2040040F724 /* LaunchScreen.storyboard */; };
+		5513E52B23CCE2370040F724 /* Rent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513E52A23CCE2370040F724 /* Rent.swift */; };
+		5513E52D23CCE3560040F724 /* RentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513E52C23CCE3560040F724 /* RentData.swift */; };
+		5513E52F23CCE9120040F724 /* RentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513E52E23CCE9120040F724 /* RentRow.swift */; };
+		5513E53123CCEAA60040F724 /* RentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513E53023CCEAA60040F724 /* RentList.swift */; };
+		5513E53323CCEB5E0040F724 /* RentEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513E53223CCEB5E0040F724 /* RentEditor.swift */; };
+		55569CEE23CD121300603C20 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55569CED23CD121300603C20 /* PieChart.swift */; };
+		55569CF023CD136800603C20 /* CircleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55569CEF23CD136800603C20 /* CircleChart.swift */; };
+		55569CF223CD140900603C20 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55569CF123CD140900603C20 /* ChartView.swift */; };
+		55569CF423CD14AE00603C20 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55569CF323CD14AE00603C20 /* Main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		5513E51F23CCE2040040F724 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5513E52223CCE2040040F724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5513E52423CCE2040040F724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5513E52A23CCE2370040F724 /* Rent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rent.swift; sourceTree = "<group>"; };
+		5513E52C23CCE3560040F724 /* RentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentData.swift; sourceTree = "<group>"; };
+		5513E52E23CCE9120040F724 /* RentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentRow.swift; sourceTree = "<group>"; };
+		5513E53023CCEAA60040F724 /* RentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentList.swift; sourceTree = "<group>"; };
+		5513E53223CCEB5E0040F724 /* RentEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentEditor.swift; sourceTree = "<group>"; };
+		55569CED23CD121300603C20 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		55569CEF23CD136800603C20 /* CircleChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleChart.swift; sourceTree = "<group>"; };
+		55569CF123CD140900603C20 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		55569CF323CD14AE00603C20 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,15 @@
 				5513E52123CCE2040040F724 /* LaunchScreen.storyboard */,
 				5513E52423CCE2040040F724 /* Info.plist */,
 				5513E51E23CCE2040040F724 /* Preview Content */,
+				5513E52A23CCE2370040F724 /* Rent.swift */,
+				5513E52C23CCE3560040F724 /* RentData.swift */,
+				5513E52E23CCE9120040F724 /* RentRow.swift */,
+				5513E53023CCEAA60040F724 /* RentList.swift */,
+				5513E53223CCEB5E0040F724 /* RentEditor.swift */,
+				55569CED23CD121300603C20 /* PieChart.swift */,
+				55569CEF23CD136800603C20 /* CircleChart.swift */,
+				55569CF123CD140900603C20 /* ChartView.swift */,
+				55569CF323CD14AE00603C20 /* Main.swift */,
 			);
 			path = hw4_32;
 			sourceTree = "<group>";
@@ -146,9 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55569CF023CD136800603C20 /* CircleChart.swift in Sources */,
+				55569CEE23CD121300603C20 /* PieChart.swift in Sources */,
 				5513E51723CCE2030040F724 /* AppDelegate.swift in Sources */,
+				5513E52D23CCE3560040F724 /* RentData.swift in Sources */,
 				5513E51923CCE2030040F724 /* SceneDelegate.swift in Sources */,
+				5513E53323CCEB5E0040F724 /* RentEditor.swift in Sources */,
+				55569CF423CD14AE00603C20 /* Main.swift in Sources */,
+				5513E52B23CCE2370040F724 /* Rent.swift in Sources */,
+				55569CF223CD140900603C20 /* ChartView.swift in Sources */,
 				5513E51B23CCE2030040F724 /* ContentView.swift in Sources */,
+				5513E53123CCEAA60040F724 /* RentList.swift in Sources */,
+				5513E52F23CCE9120040F724 /* RentRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
